@@ -55,6 +55,8 @@ public class PlayerController : MonoBehaviour
         {
             winTextObject.SetActive(true);
             Destroy(GameObject.FindGameObjectWithTag("Enemy"));
+            playAgainButton.SetActive(true);
+            exitButton.SetActive(true);
         }
     }
 
